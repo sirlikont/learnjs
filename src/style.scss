@@ -1,0 +1,13 @@
+$primary: coral;
+// Import all of Bootstrap's CSS
+@use "bootstrap/scss/bootstrap"  with (
+    $primary: coral
+);
+
+
+
+//@use 'sass:color';
+//$bgcolor: blue;
+//body {
+//    background-color: color.scale($bgcolor, $lightness: -40%)
+//}
